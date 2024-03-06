@@ -1,0 +1,109 @@
+@import "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #fefae0;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Vogue;
+    color: #12674A;
+}
+
+
+.recipe-name {
+    font-family: Kreon;
+    text-align: left;
+    color: #ff4e00;
+    font-size: 3.5em;
+    background-color: #12674A;
+    margin: 0px 0px;
+    text-align: left;
+    background-position: center;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: left;
+    font-family: Kreon;
+}
+
+p {
+    text-align: left;
+    font-family: inter;
+    color: #202020;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-top: 3px solid #12674A;
+    margin-left:0;
+}
+
+#menu {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+.recipe {
+    width: 220px;
+    height: 300px; 
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+#container {
+    display: grid;
+    align-items: left; 
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 0px;
+    float: left;
+}
+   
+.recipe-img {
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 450px;
+    height: 550px;
+    float: left;
+
+}
+.desc {
+    font-size: 4em;
+    font-family: Kreon;
+    float: left;
+}
+   
+.text {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 15px;
+    font-family: inter;
+    max-width: 400px;
+    float: left;
+    margin-left: 20px;
+}
+
+.text2 {
+    margin-right: 170px;
+    margin-top: 15px;
+}
+
+.ingredientes {
+    font-family: Kreon;
+    font-size: 4em;
+}
+
+ul {
+    text-align: left;
+    font-family: inter;
+}
