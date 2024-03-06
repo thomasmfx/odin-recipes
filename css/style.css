@@ -14,17 +14,17 @@ body {
     color: #12674A;
 }
 
-
 .recipe-name {
     font-family: Kreon;
     text-align: left;
-    color: #ff4e00;
+    color: #ffb703;
     font-size: 3.5em;
     background-color: #12674A;
     margin: 0px 0px;
     text-align: left;
     background-position: center;
     border-radius: 5px;
+    text-indent: 15px;
 }
 
 h2 {
@@ -36,6 +36,7 @@ p {
     text-align: left;
     font-family: inter;
     color: #202020;
+    margin-top: 100px;
 }
 
 a {
@@ -63,47 +64,65 @@ hr {
 #container {
     display: grid;
     align-items: left; 
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     float: left;
+    width: 100%;
 }
-   
+
 .recipe-img {
     border-radius: 20px;
     margin-left: 15px;
     margin-top: 15px;
-    width: 450px;
-    height: 550px;
-    float: left;
-
+    width: 400px;
+    height: 500px;
+    float: left; 
 }
-.desc {
+.title {
     font-size: 4em;
     font-family: Kreon;
     float: left;
+    text-decoration: underline;
+    text-decoration-color: #12674A;
+    text-decoration-thickness: 2px;
 }
-   
+
 .text {
     text-align: left;
-    margin-left: 0px;
     margin-top: 15px;
     font-family: inter;
-    max-width: 400px;
+    max-width: 360px;
     float: left;
-    margin-left: 20px;
+
 }
 
-.text2 {
-    margin-right: 170px;
+.preparo{
     margin-top: 15px;
-}
-
-.ingredientes {
-    font-family: Kreon;
-    font-size: 4em;
 }
 
 ul {
+    list-style-type: none;
     text-align: left;
     font-family: inter;
+    padding-left: 0px;
+    margin-top: 50px;
+}
+
+ul>li::before {
+    content: "\f2e7";
+    font-family: "FontAwesome";
+    margin-right: 1em;
+    font-size: 0.7em;
+    vertical-align: center;
+  }
+
+ol {
+    text-align: left;
+    font-family: inter;
+    padding-left: 15px;
+}
+
+ol>li::before {
+    margin-right: 1em;
+    font-size: 0.7em;
+    vertical-align: center;
 }
