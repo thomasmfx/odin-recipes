@@ -2,22 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-body {
-    background-color: #fefae0;
+.index {
+    background-image: url("../assets/background-blur.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
+}
+
+.recipesBody {
+    background-color: #fefae0;
 }
 
 #title {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 5em;
     font-family: Vogue;
     color: #12674A;
+    margin-top: 15px;
 }
 
 .recipe-name {
-    font-family: Kreon;
+    font-family: Vogue;
     text-align: left;
-    color: #ffb703;
+    color: #fefae0;
     font-size: 3.5em;
     background-color: #12674A;
     margin: 0px 0px;
@@ -29,14 +37,14 @@ body {
 
 h2 {
     text-align: left;
-    font-family: Kreon;
+    font-family: Vogue;
 }
 
 p {
     text-align: left;
-    font-family: inter;
-    color: #202020;
-    margin-top: 100px;
+    font-family: Vogue;
+    font-size: 1.2em;
+    margin-top: 99px;
 }
 
 a {
@@ -44,21 +52,29 @@ a {
 }
 
 hr {
-    border-top: 3px solid #12674A;
+    border: 3px solid #12674A;
     margin-left:0;
 }
 
-#menu {
+.menu {
     display: inline-block;
     margin: auto;
     width: 100%;
+    margin-top: 50px;
 }
 
 .recipe {
-    width: 220px;
-    height: 300px; 
-    border-radius: 20px; 
-    padding: 10px;
+    width: 350px;
+    height: 450px; 
+    border-radius: 10px; 
+    margin: 30px;
+    transition: 1s;
+    box-shadow: 10px 10px 10px 1px rgba(233, 237, 201, 0.115)
+}
+
+.recipe:hover {
+    transition: 1s;
+    transform: scale(1.2);
 }
 
 #container {
@@ -79,7 +95,7 @@ hr {
 }
 .title {
     font-size: 4em;
-    font-family: Kreon;
+    font-family: Vogue;
     float: left;
     text-decoration: underline;
     text-decoration-color: #12674A;
@@ -89,7 +105,7 @@ hr {
 .text {
     text-align: left;
     margin-top: 15px;
-    font-family: inter;
+    font-family: Vogue;
     max-width: 360px;
     float: left;
 
@@ -102,14 +118,21 @@ hr {
 ul {
     list-style-type: none;
     text-align: left;
-    font-family: inter;
+    font-size: 1.2em;
+    font-family: Vogue;
     padding-left: 0px;
     margin-top: 50px;
+}
+
+ul>li {
+    padding-left: 0px;
+    padding: 2px;
 }
 
 ul>li::before {
     content: "\f2e7";
     font-family: "FontAwesome";
+    color: #12674A;
     margin-right: 1em;
     font-size: 0.7em;
     vertical-align: center;
@@ -117,8 +140,15 @@ ul>li::before {
 
 ol {
     text-align: left;
-    font-family: inter;
+    font-size: 1.2em;
+    font-family: Vogue;
     padding-left: 15px;
+    margin-top: 50px;
+}
+
+ol>li {
+    padding-left: 4px;
+    padding: 2px;
 }
 
 ol>li::before {
