@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 .index {
-    background-image: url("../assets/background-blur.jpg");
+    background-image: url("../assets/images/background-blur.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     background-color: #fefae0;
 }
 
-#title {
+#title-index {
     text-align: center;
     font-size: 5em;
     font-family: Vogue;
@@ -22,6 +22,14 @@
     margin-top: 15px;
 }
 
+.title {
+    font-size: 4em;
+    font-family: Vogue;
+    float: left;
+    text-decoration: underline;
+    text-decoration-color: #12674A;
+    text-decoration-thickness: 2px;
+}
 .recipe-name {
     font-family: Vogue;
     text-align: left;
@@ -33,6 +41,12 @@
     background-position: center;
     border-radius: 5px;
     text-indent: 15px;
+}
+
+.home-icon {
+    text-align: center;
+    font-size: 0.8em;
+    vertical-align: middle;
 }
 
 h2 {
@@ -86,20 +100,12 @@ hr {
 }
 
 .recipe-img {
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 15px;
     margin-top: 15px;
     width: 400px;
     height: 500px;
     float: left; 
-}
-.title {
-    font-size: 4em;
-    font-family: Vogue;
-    float: left;
-    text-decoration: underline;
-    text-decoration-color: #12674A;
-    text-decoration-thickness: 2px;
 }
 
 .text {
