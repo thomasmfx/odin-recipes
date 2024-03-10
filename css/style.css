@@ -8,10 +8,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    height: 100%;
 }
 
 .recipesBody {
-    background-color: #fefae0;
+    background-color: #edf6f9;
 }
 
 #title-index {
@@ -22,7 +23,7 @@
     margin-top: 15px;
 }
 
-.title {
+.descricao-heading, .ingredientes-heading, .preparo-heading {
     font-size: 4em;
     font-family: Vogue;
     float: left;
@@ -33,7 +34,7 @@
 .recipe-name {
     font-family: Vogue;
     text-align: left;
-    color: #fefae0;
+    color: #edf6f9;
     font-size: 3.5em;
     background-color: #12674A;
     margin: 0px 0px;
@@ -82,12 +83,12 @@ hr {
     height: 450px; 
     border-radius: 10px; 
     margin: 30px;
-    transition: 1s;
+    transition: 0.5s;
     box-shadow: 10px 10px 10px 1px rgba(233, 237, 201, 0.115)
 }
 
 .recipe:hover {
-    transition: 1s;
+    transition: 0.5s;
     transform: scale(1.2);
 }
 
@@ -117,7 +118,7 @@ hr {
 
 }
 
-.preparo{
+.modo-de-preparo{
     margin-top: 15px;
 }
 
